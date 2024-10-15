@@ -1,0 +1,24 @@
+.top10-sp{
+    box-shadow: gray 0 0 5px 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+.top10-text{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.top10-img{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.top10-img img{
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+}
+.top10-img a{
+    text-decoration: none;
+    color: black;
+}

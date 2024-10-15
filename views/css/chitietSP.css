@@ -1,0 +1,443 @@
+.tong-trang {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.box1 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  box-shadow: gray 0 0 5px 0px;
+}
+.box1 ul {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  list-style: none;
+}
+
+.box1 ul li {
+  margin: 0 5px;
+}
+
+.box1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main-ctsp {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.box1 span {
+  color: #1790cf;
+}
+
+.ctsp {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.ctsp-img {
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.img-1-ctsp img {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.giamgia-ctsp {
+  font-size: 13px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  margin-left: 450px;
+}
+
+.img-2-ctsp {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+.img-2-ctsp img {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.cs-img img {
+  width: 35px;
+  height: 35px;
+}
+
+.ctsp-tt h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.sp-ban {
+  padding-top: 15px;
+}
+.price {
+  display: flex;
+  padding-top: 15px;
+}
+
+.gia-1 span {
+  color: red;
+  font-size: 20px;
+}
+
+.gia-2 {
+  margin-left: 20px;
+}
+
+.ctsp-mau {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.ctsp-mau h3 {
+  font-weight: 600;
+}
+
+.chon-mau {
+  display: flex;
+  gap: 30px;
+  padding-top: 5px;
+}
+
+.size {
+  padding-top: 30px;
+}
+
+.size h3 {
+  font-weight: 600;
+}
+
+.size-t {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.size-con {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(220, 220, 220);
+  width: 70px;
+  text-align: center;
+}
+
+.sl-sp-ctsp {
+  margin-top: 30px;
+}
+
+.sl-sp-ctsp h3 {
+  font-weight: 600;
+}
+
+.tong-nut-ctsp {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nut-sl-ctsp {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.nut-sl-ctsp button {
+  background: none;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+.nut-sl-ctsp button:hover {
+  background-color: #ececec;
+}
+.nut-sl-ctsp input {
+  width: 50px;
+  height: 46px;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+}
+
+.nut-sl-ctsp span {
+  border: none;
+  padding: 15px;
+  width: 40px;
+  text-align: center;
+}
+
+.nut-them-ctsp button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 15px;
+  width: 200px;
+}
+.nut-them-ctsp button:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+
+.nut-mua-ctsp button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 15px;
+  width: 200px;
+}
+.nut-mua-ctsp button:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+.magiam {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.magiam h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.tong-ma {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.ma-g {
+  padding: 10px;
+  background-color: rgb(248, 214, 214);
+}
+
+.ma-g span {
+  color: red;
+}
+
+.chinhsach {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tong-cs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.cs-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-img img {
+  margin-left: 80px;
+}
+.ttsp-comment {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.comment h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+form {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-ctsp input {
+  padding: 20px;
+  width: 500px;
+}
+.comment button {
+  margin-top: 10px;
+  padding: 5px;
+  width: 500px;
+  background-color: #1790cf;
+  color: white;
+}
+.form-ctsp {
+  display: flex;
+  flex-direction: column;
+}
+.form-ctsp h5 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.nut-binhluan {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 500px;
+  background-color: #1790cf;
+  color: white;
+}
+
+.binhluan {
+  padding: 20px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+.binhluan h2 {
+  text-align: center;
+}
+.star {
+  color: rgb(255, 196, 4);
+  margin-bottom: 10px;
+}
+.t-bl {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.img-ten {
+  width: 170px;
+  text-align: center;
+}
+.img-ten img {
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.list-product {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.t-product {
+  position: relative;
+  overflow: hidden;
+}
+.t-product a {
+  text-decoration: none;
+  color: black;
+}
+.sp {
+  /* position: relative; */
+  line-height: 30px;
+}
+.sp-img img {
+  width: 310px;
+  height: 332px;
+}
+.sp-name {
+  font-size: 13px;
+}
+
+.price span {
+  font-weight: bold;
+  color: red;
+}
+.price del {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.dg-giam-ctsp {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  top: 5px;
+}
+.danhgia-ctsp {
+  display: flex;
+  font-size: 14px;
+}
+.danhgia-ctsp p {
+  color: #1790cf;
+}
+.giam-ctsp {
+  font-size: 13px;
+  margin: 6px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  margin-left: 135px;
+}
+.them-sp-ctsp {
+  text-align: center;
+  position: absolute;
+  bottom: 3000px;
+}
+
+.t-product:hover .them-sp-ctsp {
+  bottom: 0px;
+}
+.nut-them-sp-ctsp a {
+  display: flex;
+}
+.nut-them-sp-ctsp a {
+  padding: 10px;
+  width: 160px;
+  border-radius: 20px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: -250px;
+  left: 60px;
+}
+.nut-them-sp-ctsp i {
+  margin: 0 10px;
+}
+.nut-them-sp-ctsp a:hover {
+  background-color: white;
+}
+.nut-them-sp-ctsp:hover i {
+  color: red;
+}
+.nut-them-sp-ctsp:hover p {
+  color: red;
+}

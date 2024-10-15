@@ -1,0 +1,28 @@
+.trang-jbagy{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 70px;
+}
+.img-jbagy{
+    margin-left: 170px;
+}
+.img-jbagy1{
+    margin-bottom: 10px;
+}
+.img-jbagy2 img{
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+}
+.baiviet-lq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.h3-vejbagy{
+    font-size: 30px;
+}
+.baiviet-lq-img img{
+    border-radius: 20px;
+}

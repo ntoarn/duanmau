@@ -1,0 +1,174 @@
+
+.box1 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    box-shadow: gray 0 0 5px 0px;
+}
+.box1 ul {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    list-style: none;
+}
+
+.box1 ul li {
+    margin: 0 5px;
+}
+
+.box1 ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.box1 span {
+    color: #1790CF;
+}
+.tieude-sp{
+    margin-top: 70px;
+    text-align: center;
+}
+.box2-sp{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+.box2-menu-sp{
+    margin: 0 20px;
+}
+.loc-sp{
+    box-shadow: gray 0 0 5px 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.loc-td-sp{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.loc-sp nav ul {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.loc-td-sp a{
+    color: white;
+    text-decoration: none;
+}
+.loc-sp nav ul{
+    list-style: none;
+}
+.loc-sp nav ul li{
+    padding: 5px;
+    margin-left: 20px;
+}
+.loc-sp nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.loc-sp nav ul li a:hover{
+    color: #1790CF;
+}.sale-sp img{
+    margin-top: 20px;
+    box-shadow: gray 0 0 5px 0px;
+    
+}
+
+
+
+.list-product-sp{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.t-product-sp{
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    margin-bottom: 30px;
+}
+.t-product-sp a{
+    text-decoration: none;
+    color: black;
+}
+.sp-sp{
+    /* position: relative; */
+    line-height: 30px;
+}
+.sp-img-sp img{
+    width: 310px;
+    height: 332px;
+}
+.sp-name-sp{
+    font-size: 13px;
+}
+
+.price-sp span{
+    font-weight: bold;
+    color: red;
+}
+.price-sp del{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.dg-giam-sp{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+}
+.danhgia-sp{
+    display: flex;
+    font-size: 14px;
+}
+.danhgia-sp p{
+    color: #1790CF;
+}
+.giam-sp{
+    font-size: 13px;
+    margin: 6px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 60px;
+    text-align: center;
+    margin-left: 185px;
+    
+}
+.them-sp-sp{
+    text-align: center;
+    position: absolute;
+    bottom: 3000px;
+    
+}
+
+.t-product-sp:hover .them-sp-sp{
+    bottom: 0px;
+}
+.nut-them-sp-sp a{
+    display: flex;
+    padding: 10px;
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -250px;
+    left: 80px;
+}
+.nut-them-sp-sp i{
+    margin: 0 10px;
+}
+.nut-them-sp-sp a:hover{
+    background-color: white;
+}
+.nut-them-sp-sp:hover i{
+    color: red;
+}
+.nut-them-sp-sp:hover p{
+    color: red;
+}

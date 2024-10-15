@@ -1,0 +1,25 @@
+.dmk{
+    margin-bottom: 20px;
+}
+.form-dmk{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.form-dmk input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 5px;
+}
+.doimk-btn input{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.doimk-btn span{
+    padding: 5px;
+    color: white;
+    background-color: black;
+}

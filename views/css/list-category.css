@@ -1,0 +1,59 @@
+.text-dm{
+    text-align: center;
+    margin-top: 50px;
+}
+.list-dm {
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+
+}
+
+.id-name {
+    display: flex;
+    padding: 20px;
+    width: 880px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 10px;
+}
+
+.id-list{
+    position: absolute;
+    left: 130px;
+    top: 13px;
+}
+.ten-dm{
+    position: absolute;
+    left: 320px;
+    top: 13px;
+}
+.table-dm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+table {
+    width: 920px;
+    margin-top: 40px;
+}
+
+.btn-list {
+    margin-top: 20px;
+    padding: 20px;
+}
+.btn-list input{
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.btn-list input:hover{
+    background-color: #000000;
+    color: white;
+}

@@ -1,0 +1,46 @@
+.tranglienhe{
+    margin-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 30px;
+}
+.box1-tranglienhe h1{
+    font-size: 30px;
+}
+.box1-tranglienhe form{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.box1-tranglienhe{
+    width: 1200px;
+}
+.box1-tranglienhe form input{
+    width: 100%;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.box2-formdc{
+    display: flex;
+    flex-direction: column;
+    box-shadow: gray 0 0 5px 0px;
+    border-radius: 20px;
+    height: 170px;
+    padding: 20px;
+    margin-top: 300px;
+}
+.box2-formdc span{
+    margin-bottom: 10px;
+}
+.box2-formdc h5{
+    margin-bottom: 10px;
+}
+.btn-tranglh{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}

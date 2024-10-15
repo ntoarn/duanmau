@@ -1,0 +1,45 @@
+/* Đặt kiểu cho phần banner */
+.banner {
+    position: relative; /* Để các phần tử con có thể được định vị tương đối */
+    overflow: hidden; /* Ẩn các phần tử vượt ra ngoài vùng chứa */
+    width: 100%; /* Đảm bảo banner chiếm toàn bộ chiều rộng */
+}
+
+/* Kiểu cho hình ảnh trong banner */
+.banner img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    display: block; /* Ngăn khoảng trắng bên dưới hình ảnh */
+}
+
+/* Kiểu cho các nút điều hướng */
+.slide {
+    position: absolute; /* Định vị tuyệt đối để đặt nút trong banner */
+    top: 50%; /* Đặt nút ở giữa theo chiều dọc */
+    left: 0;
+    right: 0; /* Căng toàn bộ chiều ngang */
+    display: flex; /* Sử dụng flexbox để căn giữa nút */
+    justify-content: space-between; /* Căn chỉnh các nút ở hai bên */
+    transform: translateY(-50%); /* Đẩy nút lên giữa theo chiều dọc */
+}
+
+/* Kiểu cho nút điều hướng */
+.slide button {
+    background-color: rgba(255, 255, 255, 0.7); /* Nền màu trắng với độ trong suốt */
+    border: none; /* Bỏ đường viền */
+    padding: 10px; /* Khoảng cách bên trong nút */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột vào nút */
+    border-radius: 50%; /* Để tạo ra nút tròn */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi cho nền */
+}
+
+/* Thay đổi màu nền khi hover */
+.slide button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Đậm màu khi hover */
+}
+
+/* Kiểu cho biểu tượng trong nút */
+.slide button i {
+    font-size: 18px; /* Kích thước biểu tượng */
+    color: #333; /* Màu sắc của biểu tượng */
+}

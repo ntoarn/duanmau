@@ -1,0 +1,32 @@
+.tt{
+    display: flex;
+    gap: 9%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tt-n{
+    font-size: 30px;
+}
+.tt-gt{
+    margin-top: 20px;
+    
+    color: rgb(94, 94, 94);
+}
+
+.tt-link{
+    margin-top: 20px;
+}
+.tt-link a{
+    text-decoration: none;
+    
+}
+.tt-img img{
+    width: 640px;
+    height: 413px;
+}
+.tt-img a{
+    text-decoration: none;
+}
+.tt-img p{
+    margin-top: 20px;
+}

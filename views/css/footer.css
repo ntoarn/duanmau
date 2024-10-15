@@ -1,0 +1,74 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+.lh{
+    line-height: 30px;
+}
+.lh .lh-img img{
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+.lh nav ul{
+    list-style: none;
+}
+.lh nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.cs{
+    line-height: 30px;
+}
+.cs nav ul{
+    list-style: none;
+}
+.cs nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.gop-y{
+    display: flex;
+    flex-direction: column;
+}
+.gop-y h2{
+    padding-bottom: 20px;
+    color: white;
+}
+.gop-y span{
+    padding-bottom: 20px;
+    color: white;
+}
+.gop-y button{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+.gop-y a{
+    text-decoration: none;
+    color: black;
+}
+.lh nav ul li a:hover{
+    color: #1790CF;
+}
+.cs nav ul li a:hover{
+    color: #1790CF;
+}
+.gop-y h2:hover{
+    color: #1790CF;
+}
+.gop-y span:hover{
+    color: #1790CF;
+}
+.gop-y button:hover{
+    border: 3px solid #1790CF;
+    ;
+}

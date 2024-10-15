@@ -1,0 +1,97 @@
+.header {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.text-1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.menu {
+  background-color: black;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  position: relative;
+}
+.menu ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -5px;
+  transform-origin: center;
+  transform: scaleX(0%);
+  transition: all 0.3s ease-in-out;
+}
+.menu ul li a:hover::after {
+  transform: scaleX(100%);
+}
+
+.form {
+  padding: 30px;
+  width: 80%;
+  margin-left: 120px;
+}
+.text-2 {
+  font-size: 12px;
+  text-align: center;
+  background-color: #dadada;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.form-add {
+  background-color: #ededed;
+  border-radius: 20px;
+  padding: 20px;
+}
+.form-add input {
+  width: 100%;
+  height: 20px;
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+}
+.btn input {
+  margin: 0 20px;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+}
+.btn input:hover {
+  background-color: #000000;
+  color: white;
+}
+.btn button:hover {
+  background-color: #000000;
+  color: white;
+}
+.btn button a:hover {
+  background-color: #000000;
+  color: white;
+}

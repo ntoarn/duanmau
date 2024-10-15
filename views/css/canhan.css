@@ -1,0 +1,128 @@
+.box-text-canhan {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  box-shadow: gray 0 0 5px 0px;
+}
+.box-text-canhan ul {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  list-style: none;
+}
+
+.box-text-canhan ul li {
+  margin: 0 5px;
+}
+
+.box-text-canhan ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.box-text-canhan span {
+  color: #1790cf;
+}
+.main-canhan {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.box1-canhan {
+  padding: 40px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  background-color: #f3f3f3;
+}
+.box1-img-canhan {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.box1-text-canhan {
+  margin-top: 20px;
+}
+.box1-text-canhan i {
+  width: 15px;
+  height: 15px;
+  margin: 0 15px;
+}
+.box1-text-canhan nav ul {
+  list-style: none;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.box1-text-canhan nav ul a {
+  text-decoration: none;
+  color: black;
+}
+.box1-text-canhan button {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.box2-canhan {
+  padding: 20px;
+  width: 78%;
+  background-color: #f3f3f3;
+}
+.tt-tk-canhan {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-canhan {
+  margin-top: 20px;
+  padding: 20px;
+  width: 900px;
+  margin-left: 45px;
+}
+form{
+  background-color: white;
+}
+.hoten-canhan input {
+  width: 100%;
+  height: 30px;
+}
+.email-canhan input {
+  width: 100%;
+  height: 30px;
+}
+.sdt-canhan input {
+  width: 100%;
+  height: 30px;
+}
+.dc-tinh input {
+  width: 100%;
+  height: 30px;
+}
+.dc-quan input {
+  width: 100%;
+  height: 30px;
+}
+.dc-xa input {
+  width: 100%;
+  height: 30px;
+}
+.tt-btn {
+  text-align: center;
+}
+.tt-btn input {
+  width: 50%;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.form-canhan input[type="number"]::-webkit-inner-spin-button,
+.form-canhan input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+.thongbao {
+  background-color: antiquewhite;
+  margin-top: 10px;
+  padding: 5px;
+}
+.thongbao i {
+  margin: 0 10px;
+}

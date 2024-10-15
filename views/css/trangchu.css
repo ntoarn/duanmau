@@ -1,0 +1,104 @@
+.h3-trangchu{
+    font-size: 30px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list-product{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.t-product{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.t-product a{
+    text-decoration: none;
+    color: black;
+}
+.sp{
+    /* position: relative; */
+    line-height: 30px;
+}
+.sp-img img{
+    width: 310px;
+    height: 332px;
+}
+.sp-name{
+    font-size: 13px;
+}
+.price span{
+    font-weight: bold;
+    color: red;
+}
+.price del{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.dg-giam{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+}
+.danhgia{
+    display: flex;
+    font-size: 14px;
+}
+.danhgia p{
+    color: #1790CF;
+}
+.giam{
+    font-size: 13px;
+    margin: 6px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 60px;
+    text-align: center;
+    margin-left: 185px;
+    
+}
+.them-sp{
+    text-align: center;
+    position: absolute;
+    bottom: 3000px;
+    
+}
+
+.t-product:hover .them-sp{
+    bottom: 0px;
+}
+.nut-them-sp a{
+    display: flex;
+}
+.nut-them-sp a{
+    padding: 10px;
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -250px;
+    left: 80px;
+}
+.nut-them-sp i{
+    margin: 0 10px;
+}
+.nut-them-sp a:hover{
+    background-color: white;
+}
+.nut-them-sp:hover i{
+    color: red;
+}
+.nut-them-sp:hover p{
+    color: red;
+}
+
